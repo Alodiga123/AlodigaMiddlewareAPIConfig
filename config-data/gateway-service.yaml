@@ -22,10 +22,6 @@ spring:
             - Path=/mobile/**
           filters:
             - AuthFilter
-        - id: web-service
-          uri: lb://web-service
-          predicates:
-            - Path=/web/**
         - id: auth-service
           uri: lb://auth-service
           predicates:
