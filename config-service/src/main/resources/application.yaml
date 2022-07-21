@@ -8,8 +8,7 @@ spring:
           default-label: master
           uri: https://github.com/Alodiga123/AlodigaMiddlewareAPIConfig
           search-paths: config-data
-          username: yamealm
-          password: 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
+
           
   application:
     name: config-service
