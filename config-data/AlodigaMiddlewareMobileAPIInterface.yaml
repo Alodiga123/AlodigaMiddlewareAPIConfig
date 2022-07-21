@@ -7,4 +7,15 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
   instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}           
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}   
+
+  jpa:
+    database: mysql
+    show-sql: true 
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver 
+    username: root
+    password: 1nt3r4xt3l3ph0nyDB
+    url: jdbc:mysql://localhost:3306/middlewarfidb?autoReconnect=true&serverTimezone=UTC    
