@@ -19,11 +19,13 @@ spring:
       routes:
         - id: AlodigaMiddlewareMobileAPIInterface
           uri: lb://AlodigaMiddlewareMobileAPIInterface
+          predicates:
             - Path=/mobile/**
           filters:
             - AuthFilter
         - id: AlodigaMiddlewareWebAPIInterface
           uri: lb://AlodigaMiddlewareWebAPIInterface
+          predicates:
             - Path=/web/**
           filters:
             - AuthFilter  
