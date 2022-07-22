@@ -17,13 +17,13 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: mobile-service
-          uri: lb://mobile-service
+        - id: AlodigaMiddlewareMobileAPIInterface
+          uri: lb://AlodigaMiddlewareMobileAPIInterface
             - Path=/mobile/**
           filters:
             - AuthFilter
-        - id: web-service
-          uri: lb://web-service
+        - id: AlodigaMiddlewareWebAPIInterface
+          uri: lb://AlodigaMiddlewareWebAPIInterface
             - Path=/web/**
           filters:
             - AuthFilter  
