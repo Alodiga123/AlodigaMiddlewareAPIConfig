@@ -20,3 +20,6 @@ spring:
     username: root
     password: 1nt3r4xt3l3ph0nyDB
     url: jdbc:mysql://localhost:3306/middlewarfidb?autoReconnect=true&serverTimezone=UTC    
+springdoc:
+  api-docs:
+    path: /alodigamiddleware-openwebapi          
