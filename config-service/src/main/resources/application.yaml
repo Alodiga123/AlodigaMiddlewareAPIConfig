@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: security
+          default-label: master
           uri: https://github.com/Alodiga123/AlodigaMiddlewareAPIConfig
           search-paths: config-data
 
