@@ -18,7 +18,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver 
     username: root
-    password: 1nt3r4xt3l3ph0nyDB
+    password: alodiga.1234
     url: jdbc:mysql://localhost:3306/middlewarfidb?autoReconnect=true&serverTimezone=UTC    
 springdoc:
   api-docs:
