@@ -22,4 +22,6 @@ spring:
     url: jdbc:mysql://localhost:3306/middlewarfidb?autoReconnect=true&serverTimezone=UTC    
 springdoc:
   api-docs:
-    path: /alodigamiddleware-openwebapi          
+    path: /alodigamiddleware-openwebapi
+logging:
+  config: classpath:log4j2.properties
