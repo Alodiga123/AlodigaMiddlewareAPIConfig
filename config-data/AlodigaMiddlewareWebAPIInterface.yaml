@@ -23,5 +23,3 @@ spring:
 springdoc:
   api-docs:
     path: /alodigamiddleware-openwebapi
-logging:
-  config: classpath:log4j2.properties
